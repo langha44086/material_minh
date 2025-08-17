@@ -45,8 +45,14 @@ model_labor.fit(X_train, y_labor_train)
 
 # Streamlit UI
 st.title("Giới thiệu về tôi")
-st.image("1.png")
-st.image("2.png")
+st.image("m1.PNG")
+st.image("m2.PNG")
+st.image("m3.PNG")
+st.image("m4.PNG")
+st.image("m5.PNG")
+st.image("m6.PNG")
+st.image("m7.PNG")
+st.image("m8.PNG")
 st.subheader("Dữ liệu đầu vào")
 st.write("Chúng ta sẽ lấy dữ liệu thực tế sản phẩm làm mẫu hoặc đã làm một vài lần để sự đoán vật tư cho các lô hàng tiếp theo.Dưới đây model nhỏ để dự đoán số vật tư cho ghế sofa.Gồm các cột dữ liệu:Ngày,Sản phẩm,Vải,Gỗ,Foamvà Giờ công")
 st.write("Ứng dụng này hướng đến cho người dùng một cách dễ dàng nhất và tiện lợi")
@@ -69,3 +75,4 @@ if st.button("Dự đoán"):
     st.write(f"- **Gỗ cần thiết (m³):** {wood_needed[0]:.2f}")
     st.write(f"- **Mút cần thiết (kg):** {foam_needed[0]:.2f}")
     st.write(f"- **Giờ lao động cần thiết:** {labor_needed[0]:.2f}")
+
