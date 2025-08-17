@@ -77,4 +77,5 @@ if st.button("Dự đoán"):
     st.write(f"- **Giờ lao động cần thiết:** {labor_needed[0]:.2f}")
 
 # Thêm chữ cảm ơn ở cuối trang
-st.markdown("<h2 style='text-align: center;'>𝒯𝒽𝒶𝓃𝓀 𝓎𝑜𝓊</h2>", unsafe_allow_html=True)
+st.markdown("<h2 style='text-align: center;'>𝒯𝒽𝒶𝓃𝓀 𝓎𝑜𝓊!</h2>", unsafe_allow_html=True)
+
